@@ -36,6 +36,7 @@ class Game:
             self.screen.blit(self.img, self.img_pos)
 
             img_r = pygame.Rect(self.img_pos[0], self.img_pos[1], self.img.get_width(), self.img.get_height())
+            
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
